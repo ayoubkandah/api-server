@@ -1,0 +1,36 @@
+{
+  "name": "api-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "st": "nodemon",
+    "test": "jest --coverage --verbose"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ayoubkandah/api-server.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ayoubkandah/api-server/issues"
+  },
+  "homepage": "https://github.com/ayoubkandah/api-server#readme",
+  "dependencies": {
+    "@code-fellows/supergoose": "^1.0.11",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "jest": "^26.6.3",
+    "mongoose": "^5.12.3",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.7",
+    "supertest": "^4.0.2"
+  }
+}
